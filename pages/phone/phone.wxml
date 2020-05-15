@@ -1,0 +1,8 @@
+<!--pages/phone/phone.wxml-->
+<view>
+  <text>姓名：{{name}}</text>
+</view>
+<view>
+  <text>年龄：{{age}}</text>
+</view>
+<button bindtap='buttonListener'>跳转界面</button>

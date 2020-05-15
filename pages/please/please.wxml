@@ -1,0 +1,6 @@
+
+<view><button type='primary' bindtap='send'>请求数据</button></view>
+<view wx:for="{{list}}" wx:key="list">
+  <view><image src='{{item.image}}'></image></view>
+  <view>{{item.id}}</view>
+</view>

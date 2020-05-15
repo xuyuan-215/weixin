@@ -1,0 +1,12 @@
+<!--pages/car/car.wxml-->
+
+<view class="container">
+  <view wx:for="{{cardTeams}}" wx:key="{{index}}" wx:for-item="cardTeam" class="item">
+    <view class="number-wrapper">
+      <text class="name">{{cardTeam.name}}</text>
+       <view class="details">
+      <navigator url="../car1/car1?goodsId={{index}}">查看详情</navigator>
+      </view>
+    </view>
+  </view>
+</view>

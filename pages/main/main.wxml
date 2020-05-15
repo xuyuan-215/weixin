@@ -1,0 +1,32 @@
+<!--pages/main/main.wxml-->
+<view class="c-m">
+  <view >
+    <view class="m-1">
+      <input placeholder="输入任务" class="input" value="{{addText}}" bindinput="setInput" focus="{{focus}}"></input>
+    </view>
+    <view class="row space">
+      <button bindtap="addTodo" class="btn-1">新增</button>
+      <button bindtap="addTodoHide" class="btn-2">清空</button>
+    </view>
+  </view>
+  <view>
+    <view class="t-1">
+      <text>未完成</text>
+    </view>
+    <view class="col s-1">
+          <block wx:for="{{list}}"  wx:key="this">
+      <text wx:if="{{item.status==1}}" bindtap="changeStatus" data-id="{{item.id}}"
+     >{{item.name}} $500</text>
+    </block>
+    </view>
+
+    <view class="t-2"> <text>已完成</text>
+    </view>
+    <view class="col s-1">
+    <view wx:for="{{list}}"  wx:key="this">
+      <text wx:if="{{item.status==0}}"  bindtap="changeStatus" data-id="{{item.id}}">{{item.name}} <text class="red">点击取消</text>
+      </text>
+  </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/phone1/phone1.wxml-->
+
+<view>
+<text>我的姓名是：{{name}}</text>
+</view>
+<view>
+<text>我的年龄是：{{age}}</text>
+</view>

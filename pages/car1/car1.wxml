@@ -1,0 +1,6 @@
+<!--pages/car1/car1.wxml-->
+<text>汽车名称：{{showTitle}}</text>
+<view>汽车图片：</view>
+<image src='{{showImg}}' mode='widthFix'></image>
+<view>汽车描述：</view>
+<view>{{showDesc}}</view>

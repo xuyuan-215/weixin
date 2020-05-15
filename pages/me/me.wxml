@@ -1,0 +1,10 @@
+
+<view class="bc">
+  <view class="row">
+    <view class="image-1"><image src="/images/1.jpg" class="image"></image></view>
+    <view class="col t-1">
+      <view>许源</view>
+      <view>男</view>
+    </view>
+  </view>
+</view>

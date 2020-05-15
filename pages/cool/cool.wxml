@@ -1,0 +1,11 @@
+<view>
+  <view>
+    <view class="view-1" >
+      <button bindtap="changeToTest" class="btn-1">点击我跳转个人页面 </button>
+       <button bindtap="toFood" class="btn-2"> 水果</button>
+       <button bindtap="toCar" class="btn-3"> 汽车</button>
+       <button bindtap="toPhone" class="btn-4"> 手机用户</button>
+        <button bindtap="toPlease" class="btn-5"> Api</button>
+  </view>
+  </view>
+</view>

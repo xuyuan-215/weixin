@@ -1,0 +1,59 @@
+/* pages/main/main.wxss */
+
+.c-m{
+  background-color: gainsboro;
+  height: 1200rpx;
+}
+
+.m-1{
+  margin:0 0 0 50rpx;
+}
+/* 输入框样式 */
+.input{
+  border-radius: 50rpx;
+  width: 86%;
+  font-size: 50rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  background-color: white;
+}
+
+/* 按钮的间距 */
+.space{
+  width: 90%;
+  padding-left: 40rpx;
+  margin-top: 30rpx;
+}
+
+/* 按钮的样式 */
+.btn-1{
+  color: white;
+  background-color: rgb(75, 183, 255)
+}
+.btn-2{
+  color: white;
+  background-color: rgb(255, 189, 89)
+
+}
+
+.t-1{
+  font-size: 40rpx;
+  color: rgba(250, 102, 43, 0.699);
+  margin: 20rpx 0 20rpx 30rpx;
+}
+
+.t-2{
+  margin: 20rpx 0 20rpx 30rpx;
+  font-size: 40rpx;
+  color: rgb(0, 189, 79);
+}
+.red{
+  color: red
+}
+
+.s-1{
+  height: 300rpx;
+  background-color: white;
+  padding: 0 0 0 40rpx;
+  width: 80%;
+  margin: 30rpx;
+}

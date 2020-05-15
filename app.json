@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/demo1/canvas/canvas",
+    "pages/me/me",
+    "pages/index/index",
+    "pages/cool/cool",
+    "pages/logs/logs",
+    "pages/food/food",
+    "pages/car/car",
+    "pages/phone/phone",
+    "pages/car1/car1",
+    "pages/phone1/phone1",
+    "pages/please/please"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#79BE3B",
+    "navigationBarTitleText": "许源",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296DB",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "images/tabbar/home1.png",
+        "selectedIconPath": "images/tabbar/home.png"
+      },
+      {
+        "pagePath": "pages/demo1/canvas/canvas",
+        "text": "指南针",
+        "iconPath": "images/tabbar/find1.png",
+        "selectedIconPath": "images/tabbar/find.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tabbar/me1.png",
+        "selectedIconPath": "images/tabbar/me.png"
+      },
+      {
+        "pagePath": "pages/cool/cool",
+        "text": "功能",
+        "iconPath": "images/tabbar/功能1.png",
+        "selectedIconPath": "images/tabbar/功能.png"
+      }
+    ]
+  }
+}
