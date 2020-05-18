@@ -1,0 +1,26 @@
+<!--pages/cha/cha.wxml-->
+<form bindsubmit="submit">
+<view>
+<text>姓名：</text> 
+<input type="text"/>
+</view>
+<view>
+<text>性别：</text> 
+<radio>男</radio>
+<radio>女</radio>
+</view>
+<view>
+<text>专业技能：</text>
+<checkbox-group class="xu">
+<checkbox>HTML</checkbox>
+<checkbox>CSS</checkbox>
+<checkbox>JavaScript</checkbox>
+<checkbox>Java</checkbox>
+</checkbox-group>
+</view>
+<view>
+<text>您的意见：</text>
+<textarea></textarea>
+</view>
+<button form-type="submit">提交</button>
+</form>

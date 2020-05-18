@@ -11,7 +11,11 @@
     "pages/phone/phone",
     "pages/car1/car1",
     "pages/phone1/phone1",
-    "pages/please/please"
+    "pages/please/please",
+    "pages/buy/buy",
+    "pages/test/test",
+    "pages/sum/sum",
+    "pages/cha/cha"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -48,7 +52,12 @@
         "text": "功能",
         "iconPath": "images/tabbar/功能1.png",
         "selectedIconPath": "images/tabbar/功能.png"
-      }
-    ]
+      },
+      {
+      "pagePath": "pages/cool/cool",
+      "text": "功能",
+      "iconPath": "images/tabbar/功能1.png",
+      "selectedIconPath": "images/tabbar/功能.png"
+        }  ]
   }
 }

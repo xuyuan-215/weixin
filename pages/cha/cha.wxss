@@ -1,0 +1,6 @@
+/* pages/cha/cha.wxss */
+.xu{
+   width: 300px;
+  background-color: rgb(12, 211, 12)
+  solid：rgb(240, 34, 34)
+}

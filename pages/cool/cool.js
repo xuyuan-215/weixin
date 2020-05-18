@@ -17,6 +17,16 @@ changeToTest:function(){
       url: '../food/food',
     })
   },
+  toBuy:function(){
+    wx.navigateTo({
+      url: '../buy/buy',
+    })
+  },
+  toCha: function () {
+    wx.navigateTo({
+      url: '../cha/cha',
+    })
+  },
   //汽车页面跳转
   toCar: function () {
     wx.navigateTo({
@@ -26,6 +36,12 @@ changeToTest:function(){
   toPlease: function () {
     wx.navigateTo({
       url: '../please/please',
+    })
+  },
+  
+  toSum: function () {
+    wx.navigateTo({
+      url: '../sum/sum',
     })
   },
   //汽车页面跳转

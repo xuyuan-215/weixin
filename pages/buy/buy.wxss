@@ -1,0 +1,12 @@
+.input{
+  width: 300px;
+  margin-top: 20rpx;
+  border-bottom: 2rpx；
+  solid：rgb(240, 34, 34)
+}
+.x{
+  background-color: rgb(231, 60, 60)
+}
+  .w{  margin: 50rpx;
+  background-color: rgb(94, 116, 241)
+  }

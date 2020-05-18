@@ -6,6 +6,9 @@
        <button bindtap="toCar" class="btn-3"> 汽车</button>
        <button bindtap="toPhone" class="btn-4"> 手机用户</button>
         <button bindtap="toPlease" class="btn-5"> Api</button>
+          <button bindtap="toBuy" class="btn-6"> 比较数字大小</button>
+          <button bindtap="toSum" class="btn-7"> 计算器</button>
+          <button bindtap="toCha" class="btn-8"> 调查问卷</button>
   </view>
   </view>
 </view>

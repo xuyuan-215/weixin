@@ -32,3 +32,19 @@ color: white;
    font-size: 40rpx;
   background-color: rgb(211, 31, 163)
 }
+.btn-6{
+  color: rgb(238, 20, 129);
+   font-size: 40rpx;
+  background-color: rgb(30, 226, 144)
+}
+.btn-7{
+  color: rgb(238, 20, 129);
+   font-size: 40rpx;
+  background-color: rgb(176, 17, 190)
+}
+.btn-8
+{
+   color: rgb(238, 20, 129);
+   font-size: 40rpx;
+  background-color: rgb(16, 177, 189)
+}
